@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220316103047">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="img/logo.svg" alt="Логотип">
+					</a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".work-block" data-goto-top="40" class="menu__link">Портфолио</a></li>
+							<li class="menu__item"><a href="#" data-goto=".services-block" data-goto-top="40" class="menu__link">Виды
+									работ</a></li>
+							<li class="menu__item"><a href="#" data-goto=".price-block" data-goto-top="40" class="menu__link">Услуги
+									и цены</a></li>
+							<li class="menu__item"><a href="#" data-goto=".comments-block" data-goto-top="40" class="menu__link">Отзывы</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto=".form-block" data-goto-top="40" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="header__phone phone">
+						<a href="tel:+74993446091" class="phone__numb">+7 (499) 344 60 91</a>
+						<a data-popup="#popup-callback" href="#" class="phone__callback">ОБРАТНЫЙ ЗВОНОК</a>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main data-watch-root class="page">
+			<section class="main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<h1 class="main-block__title">Профессиональная фотосессия в студии</h1>
+						<div class="main-block__subtitle">Наша фотостудия позволит исполнить ваши мечты</div>
+						<div class="main-block__text">
+							<p> Фотографии стали неотъемлемой частью нашей жизни. Это теперь не просто памятные снимки в
+								альбомах,
+								ныне фото становиться способом понравиться окружающим, получить восхищение, заявить о себе
+								всему
+								миру.
+							</p>
+							<p>Выбор правильной фотостудии занимает далеко не последнее место в получение фотографий. И мы с
+								точностью заявляем, что нашей фотостудией вы останетесь довольны
+								и еще не раз захотите возвращаться к нам.
+							</p>
+						</div>
+						<a href="#" data-popup="#popup" class="main-block__button button">Получить консультацию</a>
+					</div>
+				</div>
+				<div class="main-block__slider swiper">
+					<div class="main-block__wrapper swiper-wrapper">
+						<div class="main-block__slide swiper-slide">
+							<picture><source srcset="img/slider/MainSlider/01.webp" type="image/webp"><img src="img/slider/MainSlider/01.jpg" alt="Картинка для фона"></picture>
+						</div>
+						<div class="main-block__slide swiper-slide">
+							<picture><source srcset="img/slider/MainSlider/02.webp" type="image/webp"><img src="img/slider/MainSlider/02.jpg" alt="Картинка для фона"></picture>
+						</div>
+						<div class="main-block__slide swiper-slide">
+							<picture><source srcset="img/slider/MainSlider/03.webp" type="image/webp"><img src="img/slider/MainSlider/03.jpg" alt="Картинка для фона"></picture>
+						</div>
+						<div class="main-block__slide swiper-slide">
+							<picture><source srcset="img/slider/MainSlider/04.webp" type="image/webp"><img src="img/slider/MainSlider/04.jpg" alt="Картинка для фона"></picture>
+						</div>
+						<div class="main-block__slide swiper-slide">
+							<picture><source srcset="img/slider/MainSlider/05.webp" type="image/webp"><img src="img/slider/MainSlider/05.jpg" alt="Картинка для фона"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-threshold="0.5" data-watch="navigator" class="work-block">
+				<div class="work-block__body">
+					<h2 class="work-block__title title">Наши работы</h2>
+					<div class="work-block__slider swiper">
+						<div class="work-block__wrapper swiper-wrapper">
+							<div class="work-block__slide swiper-slide">
+								<picture><source srcset="img/slider/WorkSlider/01.webp" type="image/webp"><img src="img/slider/WorkSlider/01.jpg" alt="Работа"></picture>
+							</div>
+							<div class="work-block__slide swiper-slide">
+								<picture><source srcset="img/slider/WorkSlider/02.webp" type="image/webp"><img src="img/slider/WorkSlider/02.png" alt="Работа"></picture>
+							</div>
+							<div class="work-block__slide swiper-slide">
+								<picture><source srcset="img/slider/WorkSlider/03.webp" type="image/webp"><img src="img/slider/WorkSlider/03.jpg" alt="Работа"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="work-block__pagination"></div>
+					<div class="work-block__arrow-prev _icon-arrow arrow"></div>
+					<div class="work-block__arrow-next _icon-arrow arrow"></div>
+				</div>
+			</section>
+			<section class="locations-block">
+				<div class="locations-block__body">
+					<h2 class="locations-block__title title">Наши локации</h2>
+					<div class="locations-block__slider swiper">
+						<div class="locations-block__wrapper swiper-wrapper">
+							<div class="locations-block__slide swiper-slide">
+								<picture><source srcset="img/slider/LocationsSlider/01.webp" type="image/webp"><img src="img/slider/LocationsSlider/01.jpg" alt="Локация"></picture>
+								<div class="locations-block__subtitle">Название локации</div>
+							</div>
+							<div class="locations-block__slide swiper-slide">
+								<picture><source srcset="img/slider/LocationsSlider/02.webp" type="image/webp"><img src="img/slider/LocationsSlider/02.jpg" alt="Локация"></picture>
+								<div class="locations-block__subtitle">Название локации</div>
+							</div>
+							<div class="locations-block__slide swiper-slide">
+								<picture><source srcset="img/slider/LocationsSlider/03.webp" type="image/webp"><img src="img/slider/LocationsSlider/03.jpg" alt="Локация"></picture>
+								<div class="locations-block__subtitle">Название локации</div>
+							</div>
+						</div>
+					</div>
+					<div class="locations-block__pagination"></div>
+					<div class="locations-block__arrow-prev _icon-arrow arrow"></div>
+					<div class="locations-block__arrow-next _icon-arrow arrow"></div>
+				</div>
+			</section>
+			<section data-watch-threshold="0.2" data-watch="navigator" class="services-block">
+				<div class="services-block__container">
+					<div data-watch-root class="services-block__body">
+						<h2 class="services-block__title title">Виды услуг</h2>
+						<div class="services-block__list">
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-1">
+								<picture><source srcset="img/services/01.webp" type="image/webp"><img src="img/services/01.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия Лав Стори</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-2">
+								<picture><source srcset="img/services/02.webp" type="image/webp"><img src="img/services/02.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия для подростков</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-3">
+								<picture><source srcset="img/services/03.webp" type="image/webp"><img src="img/services/03.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Парная фотосессия</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-4">
+								<picture><source srcset="img/services/04.webp" type="image/webp"><img src="img/services/04.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия для парней</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-5">
+								<picture><source srcset="img/services/05.webp" type="image/webp"><img src="img/services/05.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Семейная фотосессия</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-6">
+								<picture><source srcset="img/services/06.webp" type="image/webp"><img src="img/services/06.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Групповая фотосессия</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-7">
+								<picture><source srcset="img/services/07.webp" type="image/webp"><img src="img/services/07.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия Лукбук</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-8">
+								<picture><source srcset="img/services/08.webp" type="image/webp"><img src="img/services/08.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия для девушек</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-9">
+								<picture><source srcset="img/services/09.webp" type="image/webp"><img src="img/services/09.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия для беременных</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-10">
+								<picture><source srcset="img/services/10.webp" type="image/webp"><img src="img/services/10.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия с животными</div>
+							</a>
+							<a href="#" data-watch data-watch-once target="_blank" class="services-block__item services-11">
+								<picture><source srcset="img/services/11.webp" type="image/webp"><img src="img/services/11.jpg" alt="услуги"></picture>
+								<div class="services-block__subtitle">Фотосессия «Деловой стиль»</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="stages-block">
+				<div class="stages-block__container">
+					<div class="stages-block__body">
+						<h2 class="stages-block__title title">Этапы работ</h2>
+						<div class="stages-block__list">
+							<div class="stages-block__item">
+								<div class="stages-block__subtitle">Заявка</div>
+								<div class="stages-block__text">
+									Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.
+								</div>
+								<div class="stages-block__numb">1</div>
+							</div>
+							<div class="stages-block__item">
+								<div class="stages-block__subtitle">Бронь</div>
+								<div class="stages-block__text">
+									Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.
+								</div>
+								<div class="stages-block__numb">2</div>
+							</div>
+							<div class="stages-block__item">
+								<div class="stages-block__subtitle">Составление Технического задания</div>
+								<div class="stages-block__text">
+									Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.
+								</div>
+								<div class="stages-block__numb">3</div>
+							</div>
+							<div class="stages-block__item">
+								<div class="stages-block__subtitle">Съёмка</div>
+								<div class="stages-block__text">
+									Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.
+								</div>
+								<div class="stages-block__numb">4</div>
+							</div>
+							<div class="stages-block__item">
+								<div class="stages-block__subtitle">Готовые фото</div>
+								<div class="stages-block__text">
+									Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.
+								</div>
+								<div class="stages-block__numb">5</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-root class="photo-idea-block">
+				<div class="photo-idea-block__container">
+					<div data-watch data-watch-once data-showmore="size" class="photo-idea-block__body">
+						<h2 data-watch data-watch-once class="photo-idea-block__title title">Фотостудия для любых идейных
+							фотоссесий</h2>
+						<div data-showmore-content="305" class="photo-idea-block__text">
+							<p>
+								Воплотите мечту с нашей фотостудией и приобретите красивые, уникальные, качественные фотографии,
+								выбрав один из наших залов.
+								А их, -на секундочку, -аж семь штук.
+								Каждый наш зал оборудован интерьером и профессиональным оборудованием, и подойдет для любой
+								фотоссесии, а мы хотим рассказать
+								вам о всем подробнее.
+							</p>
+							<p>
+								Какие идеи можно воплотить?
+							</p>
+							<p>
+								• Фотоссесия Love Story
+							</p>
+							<p>
+								Мечтаете показать всему миру вашу историю создания любви или хранить снимки в памятном альбоме,
+								то это фотоссесия отлично подойдет вам. Расскажите вашу историю с любимым человеком в
+								фотографиях в необычном месте.
+							</p>
+							<p>
+								• Семейная фотоссесия
+							</p>
+							<p>
+								Семья — это самое главное в жизни любого человека. Хотите повесить фотографии в вашем уютном
+								доме, смотреть на них и испытывать прилив нежности, значит семейная фотоссесия в нашей
+								фотостудии станет отличным вариантом.
+							</p>
+							<p>
+								• Фотоссесия для беременных девушек
+							</p>
+							<p>
+								Желаете сохранить воспоминания о прекрасном времени в жизни каждой женщины? Наши локации
+								помогут
+								вам организовать и воссоздать
+								в фотографиях любовь матери и еще не родившегося ребенка.
+							</p>
+							<p>
+								• Фотоссесия «Деловой стиль».
+							</p>
+							<p>
+								Вы не из тех, кто любит яркие чувства, эмоции и считаете себя сдержанным. Вам нужны
+								фотографии,
+								где вы раскроетесь как профессионал, произведете впечатление как деловой человек. Эта
+								фотоссесия
+								станет вашим правильным решением.
+							</p>
+							<p>
+								• Фотоссесия для девушек и парней.
+							</p>
+							<p>
+								Хочешь стать кем-то другим? Или, наоборот, показать свое «я»? Фотоссесия для девушек или
+								парней
+								поможет воплотить любые идеи.
+							</p>
+							<p>
+								Помимо вышеперечисленного есть и другие стили фотоссесий. Вы самостоятельно выбираете, а наши
+								фотозалы помогают вам и вдохновляют.
+							</p>
+							<p>
+								Кстати, о них…
+							</p>
+							<p>
+								Все семь фото локаций уникальные в своем роде. Мы пытались воссоздать непохожесть на другие
+								фотостудии не только в городе, но и во всей стране. Каждый зал отличается от других по
+								дизайнерскому решению и интерьеру. И каждый зал пропитан своим духом, стилем и видится
+								для каждого нашего посетителя по-разному.
+								Светлые помещения помогут получить более качественные, яркие фотоснимки. Трендовая мебель и
+								другие предметы интерьера можно двигать и активно использовать в фотосъемках. Локации
+								подойдут
+								для любых людей и задач: блогеров и медийных личностей, обычных
+								и счастливых семей, предпринимателей и подростков.
+								Что еще нужно знать о нас?
+							</p>
+							<p>
+								Оборудование. Неотъемлемая часть любой фотостудии и нередко владельцы фотостудий экономят на
+								этой важной части.
+								Мы используем все оборудование только от профессиональных продавцов, которые уже не один год
+								предлагают свои товары на мировом рынке. Вы найдете все что нужно и необходимо для работы
+								фотографов, для создания образов и света. Ведь именно от оборудования часто зависит качество
+								получающихся фотоснимков.
+							</p>
+						</div>
+						<button hidden data-showmore-button type="button" class="photo-idea-block__more _icon-arrow">
+							<span>Подробнее</span>
+							<span>Скрыть</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section data-watch-threshold="0.5" data-watch="navigator" class="price-block">
+				<div class="price-block__container">
+					<div class="price-block__body">
+						<h2 class="price-block__title title">Стоимость фотосесии</h2>
+						<div class="price-block__cards">
+							<div class="price-block__card price-card card-1">
+								<div class="price-card__decor">
+									<img src="img/decor-card.svg" alt="Декор">
+								</div>
+								<div class="price-card__packet">MINI</div>
+								<div class="price-card__price">2500 ₽</div>
+								<div class="price-card__location">/ 1 локация</div>
+								<ul class="price-card__list">
+									<li class="price-card__item _icon-chek">Длительность — 30 минут</li>
+									<li class="price-card__item _icon-chek">Исходники — До 100 штук</li>
+									<li class="price-card__item _icon-chek">Ретушь — 4 фото</li>
+									<li class="price-card__item _icon-chek">Аренда фотостудии — Бесплатно</li>
+									<li class="price-card__item _icon-chek">Любой образ</li>
+								</ul>
+								<form action="#" class="price-card__form form-card">
+									<div class="form-card__title">Дополнительные услуги</div>
+									<div class="form-card__services">
+										<div class="form-card__service-checkbox">
+											<input id="mini_1" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="mini_1" class="form-card__label"><span class="form-card__text">Помощь в
+													позировании</span></label>
+										</div>
+										<div class="form-card__service-checkbox">
+											<input id="c_2" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="c_2" class="form-card__label"><span class="form-card__text">Визажист
+													+ 2000 ₽</span></label>
+										</div>
+										<div class="form-card__service-checkbox">
+											<input id="c_3" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="c_3" class="form-card__label"><span class="form-card__text">Дополнительная
+													ретушь фото — 1 шт. / 250 ₽</span></label>
+										</div>
+									</div>
+									<button type="submit" class="form-card__button button">Забронировать</button>
+								</form>
+							</div>
+							<div class="price-block__card price-card card-2">
+								<div class="price-card__decor">
+									<img src="img/decor-card.svg" alt="Декор">
+								</div>
+								<div class="price-card__packet">STANDART</div>
+								<div class="price-card__price">5000 ₽</div>
+								<div class="price-card__location">/ 2 локация</div>
+								<ul class="price-card__list">
+									<li class="price-card__item _icon-chek">Длительность — 1 час 20 минут </li>
+									<li class="price-card__item _icon-chek">Исходники — До 200 штук</li>
+									<li class="price-card__item _icon-chek">Ретушь — 8 фото</li>
+									<li class="price-card__item _icon-chek">Аренда фотостудии — Бесплатно</li>
+									<li class="price-card__item _icon-chek">Любой образ</li>
+								</ul>
+								<form action="#" class="price-card__form form-card">
+									<div class="form-card__title">Дополнительные услуги</div>
+									<div class="form-card__services">
+										<div class="form-card__service-checkbox">
+											<input id="standart_1" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="standart_1" class="form-card__label"><span class="form-card__text">Помощь в
+													позировании</span></label>
+										</div>
+										<div class="form-card__service-checkbox">
+											<input id="standart_2" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="standart_2" class="form-card__label"><span class="form-card__text">Визажист
+													+ 2000 ₽</span></label>
+										</div>
+										<div class="form-card__service-checkbox">
+											<input id="standart_3" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="standart_3" class="form-card__label"><span class="form-card__text">Дополнительная
+													ретушь фото — 1 шт. / 250 ₽</span></label>
+										</div>
+									</div>
+									<button type="submit" class="form-card__button button">Забронировать</button>
+								</form>
+							</div>
+							<div class="price-block__card price-card card-3">
+								<div class="price-card__decor">
+									<img src="img/decor-card.svg" alt="Декор">
+								</div>
+								<div class="price-card__packet">MAXI</div>
+								<div class="price-card__price">N ₽</div>
+								<div class="price-card__location">/ Максимальное количество локаций</div>
+								<ul class="price-card__list">
+									<li class="price-card__item _icon-chek">Длительность — 4 часа</li>
+									<li class="price-card__item _icon-chek">Исходники — До 500 штук</li>
+									<li class="price-card__item _icon-chek">Ретушь — 50 фото</li>
+									<li class="price-card__item _icon-chek">Аренда фотостудии — Бесплатно</li>
+									<li class="price-card__item _icon-chek">Визажист — Make-Up, Укладка</li>
+									<li class="price-card__item _icon-chek">В предварительный подбор образов — До 8 образов</li>
+								</ul>
+								<form action="#" class="price-card__form form-card">
+									<div class="form-card__title">Дополнительные услуги</div>
+									<div class="form-card__services">
+										<div class="form-card__service-checkbox">
+											<input id="maxi_1" data-error="Ошибка" class="form-card__input" type="checkbox" value="1" name="form[]">
+											<label for="maxi_1" class="form-card__label"><span class="form-card__text">Дополнительная
+													ретушь фото — 1 шт. / 250 ₽</span></label>
+										</div>
+									</div>
+									<button type="submit" class="form-card__button button">Забронировать</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-root class="photo-trend-block">
+				<div class="photo-trend-block__container">
+					<div data-watch data-watch-once data-showmore="size" class="photo-trend-block__body">
+						<h2 data-watch data-watch-once class="photo-trend-block__title title">
+							Фотоискусство в тренде. Любая фотоссесия ваша история
+						</h2>
+						<div data-watch data-showmore-content="300" class="photo-trend-block__text">
+							<p>
+								Мы искренни так считаем и готовы кричать эту фразу на весь мир. Фотографии давно перестали
+								пылиться на полках в семейных,
+								потрёпанных альбомах.
+
+							</p>
+							<p>
+								Хотите самовыразиться и не знаете как? Позвоните нам и закажите фотосъемку.
+								Хотите удивить и впечатлить? Мы вам поможем.
+								Не уверены? Посмотрите отзывы и проконсультируйтесь.
+								Боитесь фотографироваться? Наши локации помогут вам расслабиться и почувствовать себя как дома.
+
+							</p>
+							<p>
+								Доступные цены для всех и вежливость.
+							</p>
+							<p>
+								Повторим еще раз: мы работаем в первую очередь для клиентов, и аренда нашей фотостудии имеют
+								цены семи чашек кофе.
+								Вы можете расплатится любым удобным для вас способом: наличным или безналичным расчетом. Все для
+								вашего удобства.
+							</p>
+							<p>
+								Вежливость тоже относиться к главным нашим качествам. У нас вы не найдете ужасного обращения, мы
+								всегда готовы ответить вам
+								и проконсультировать, помочь и стать вашими друзьями. Все наши работники улыбчивы и приветливы
+								вам, которые не оставят вам плохого настроения.
+							</p>
+							<p>
+								В каждом городе есть хотя бы несколько фотостудий и часто поход туда, становиться чуть ли не
+								традицией семьи, пар или друзей. Тренд
+								на истории в фотографиях для социальных сетей, где мы проводим много времени, не угасал и не
+								угаснет никогда. Фотоссесия лав стори
+								или семейная привлекает внимание всех людей и, доказано, набирает больше всего одобрений со
+								стороны людей всего мира.
+								Для качественного исполнения вашей мечты стоит обращаться к профессионалу и выбирать интересные
+								локации
+							</p>
+							<p>
+								Наша фотостудия предлагает и то, и то. Профессиональный фотограф сможет сделать качественные,
+								интересные фотографии, помочь
+								вам воплотить вашу идею в жизнь в уютных залах фотостудии.
+							</p>
+							<p>
+								На ваш выбор у нас есть 7 фотозалов, каждый из которых прекрасен и индивидуален по-своему. В
+								больших залах отлично будет смотреться групповая фотосессия, а в залах меньше получиться
+								интересная фотоссесия в деловом стиле.
+							</p>
+							<p>
+								Мы работаем в первую очередь на качество, поэтому наши цены не завышенные и доступны всем
+								желающим. У нас есть различные и удобные способы оплаты для вас.
+							</p>
+						</div>
+						<button hidden data-showmore-button type="button" class="photo-trend-block__more _icon-arrow">
+							<span>Подробнее</span>
+							<span>Скрыть</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="certificate-block">
+				<div class="certificate-block__container">
+					<div class="certificate-block__body">
+						<h2 class="certificate-block__title title">Подарочный сертификат на фотосессию</h2>
+						<div class="certificate-block__content">
+							<div class="certificate-block__text certificate-text">
+								<div class="certificate-text__subtitle">СЕРТИФИКАТ НА ФОТОСЕССИЮ</div>
+								<div class="certificate-text__title">Это подарок, который западает в душу</div>
+								<ul class="certificate-text__list">
+									<li class="certificate-text__item _icon-chek">Креативное оформление</li>
+									<li class="certificate-text__item _icon-chek">Открытый календарь</li>
+									<li class="certificate-text__item _icon-chek">Всё включено</li>
+								</ul>
+							</div>
+							<div class="certificate-block__media certificate-media">
+								<div class="certificate-media__image">
+									<picture><source srcset="img/certificate.webp" type="image/webp"><img src="img/certificate.png" alt=""></picture>
+								</div>
+								<div class="certificate-media__subtitle">Срок действия сертификата: 2 месяца со дня
+									приобретения.</div>
+								<a href="#" class="certificate-media__button button">Приобрести</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch-threshold="0.5" data-watch="navigator" class="comments-block">
+				<div class="comments-block__container">
+					<div class="comments-block__body">
+						<h2 class="comments-block__title title">Отзывы</h2>
+						<div class="comments-block__slider swiper">
+							<div class="comments-block__wrapper swiper-wrapper">
+								<div class="comments-block__slide swiper-slide">
+									<div class="comments-block__image">
+										<picture><source srcset="img//slider/Comments/01.webp" type="image/webp"><img src="img//slider/Comments/01.png" alt="Фото отзыва"></picture>
+									</div>
+									<div class="comments-block__name">Мария</div>
+									<div class="comments-block__text">
+										Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских
+										булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+									</div>
+								</div>
+								<div class="comments-block__slide swiper-slide">
+									<div class="comments-block__image">
+										<picture><source srcset="img//slider/Comments/02.webp" type="image/webp"><img src="img//slider/Comments/02.png" alt="Фото отзыва"></picture>
+									</div>
+									<div class="comments-block__name">Сергей</div>
+									<div class="comments-block__text">
+										Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских
+										булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+									</div>
+								</div>
+								<div class="comments-block__slide swiper-slide">
+									<div class="comments-block__image">
+										<picture><source srcset="img//slider/Comments/03.webp" type="image/webp"><img src="img//slider/Comments/03.png" alt="Фото отзыва"></picture>
+									</div>
+									<div class="comments-block__name">Руслан</div>
+									<div class="comments-block__text">
+										Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских
+										булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="comments-block__arrow-prev _icon-arrow arrow"></div>
+						<div class="comments-block__arrow-next _icon-arrow arrow"></div>
+						<button data-popup="#popup-comment" type="submit" class="comments-block__button button">Добавить
+							отзыв</button>
+					</div>
+				</div>
+			</section>
+			<section data-watch-threshold="0.5" data-watch="navigator" class="form-block">
+				<div class="form-block__container">
+					<div class="form-block__body">
+						<h2 class="form-block__title title">Контакты</h2>
+						<div data-watch-root class="form-block__content">
+							<div data-watch data-watch-once class="form-block__contacts">
+								<div class="form-block__item"><a href="tel:+74993446091">+7 (499) 344 60 91</a></div>
+								<div class="form-block__item"><a href="mailto:">content@addmarkets.ru</a></div>
+								<div class="form-block__item">Режим работы: <br> ПН-ПТ 09:00 - 18:00</div>
+							</div>
+							<div data-watch data-watch-once class="form-block__watch">
+								<form data-popup-message="#form-message" data-dev action="#" method="get" class="form-block__form">
+									<div class="form-block__decor">
+										<img src="img/decor-card.svg" alt="декор">
+									</div>
+									<div class="form-block__title">Форма обратной связи</div>
+									<div class="form-block__line">
+										<label for="name" class="form-block__label">Имя *</label>
+										<input id="name" autocomplete="off" type="text" name="form[]" data-required="text" data-error="Введите имя" placeholder="Введите ваше имя" class="form-block__input">
+									</div>
+									<div class="form-block__line">
+										<label for="mail" class="form-block__label">E-mail *</label>
+										<input id="mail" autocomplete="off" type="text" data-error="Введен не верный E-mail" data-required="email" name="form[]" placeholder="Введите ваш E-mail" class="form-block__input">
+									</div>
+									<div class="form-block__line">
+										<label for="phone" class="form-block__label">Телефон *</label>
+										<input id="phone" autocomplete="off" type="tel" data-inputmask="'mask': '9-(999)-9999999'" name="form[]" data-required="text" data-error="Введите телефон" placeholder="_-(___)-_______" class="form-block__input">
+									</div>
+									<button type="submit" class="form-block__button button">Отправить</button>
+									<div class="form-block__subtitle">Нажимая кнопку «Отправить», вы даете согласие на обработку
+										персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__menu">
+						<a href="" class="footer__logo">
+							<img src="img/logo.svg" alt="Логотип">
+						</a>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#" data-goto=".work-block" data-goto-top="80" class="footer__link">Портфолио</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" data-goto=".services-block" data-goto-top="80" class="footer__link">Виды работ</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" data-goto=".price-block" data-goto-top="80" class="footer__link">Услуги и цены</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" data-goto=".comments-block" data-goto-top="80" class="footer__link">Отзывы</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" data-goto=".form-block" data-goto-top="80" class="footer__link">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__socials">
+						<div class="footer__text">Наши социцальные сети:</div>
+						<div class="footer__icons">
+							<a href="#" class="footer__icon _icon-instagram"></a>
+							<a href="#" class="footer__icon _icon-facebook"></a>
+							<a href="#" class="footer__icon _icon-twitter"></a>
+							<a href="#" class="footer__icon _icon-telegram"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-form">
+				<button data-close type="button" class="popup-form__close">Закрыть</button>
+				<div class="popup-form__text">
+					<div class="popup-form__image">
+						<img src="img/popap/background.svg" alt="Картинка попапа">
+					</div>
+					<form data-dev data-popup-message="#form-message" action="#" method="get" class="form-block__form">
+						<div class="form-block__decor">
+							<img src="img/decor-card.svg" alt="декор">
+						</div>
+						<div class="form-block__title">Форма обратной связи</div>
+						<div class="form-block__line">
+							<label class="form-block__label">Имя *</label>
+							<input autocomplete="off" type="text" name="form[]" data-required="text" data-error="Введите имя" placeholder="Введите ваше имя" class="form-block__input">
+						</div>
+						<div class="form-block__line">
+							<label class="form-block__label">E-mail *</label>
+							<input autocomplete="off" type="text" data-error="Введен не верный E-mail" data-required="email" name="form[]" placeholder="Введите ваш E-mail" class="form-block__input">
+						</div>
+						<div class="form-block__line">
+							<label class="form-block__label">Телефон *</label>
+							<input autocomplete="off" type="tel" data-inputmask="'mask': '9-(999)-9999999'" name="form[]" data-required="text" data-error="Введите телефон" placeholder="_-(___)-_______" class="form-block__input">
+						</div>
+						<button type="submit" class="form-block__button button">Отправить</button>
+						<div class="form-block__subtitle">Нажимая кнопку «Отправить», вы даете согласие на обработку
+							персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-check">
+				<img src="img/popap/decor-1.svg" alt="декор попапа" class="popup-check__decor1">
+				<img src="img/popap/decor-2.svg" alt="декор попапа" class="popup-check__decor2">
+				<button data-close type="button" class="popup-check__close">Закрыть</button>
+				<div class="popup-check__text">
+					<div class="popup-check__title">Благодарим за оставленную заявку!</div>
+					<div class="popup-check__subtitle">
+						Наши специалисты уже обрабатывают вашу заявку и свяжутся с вами в ближайшее время
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-comment" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-form">
+				<button data-close type="button" class="popup-form__close">Закрыть</button>
+				<div class="popup-form__text">
+					<div class="popup-form__image">
+						<img src="img/popap/comment.svg" alt="Картинка попапа">
+					</div>
+					<form data-dev data-popup-message="#form-message-comment" action="#" method="get" class="form-block__form">
+						<div class="form-block__decor">
+							<img src="img/decor-card.svg" alt="декор">
+						</div>
+						<div class="form-block__title">Оставьте отзыв о том, как прошла ваша фотосессия</div>
+						<div class="form-block__line">
+							<label class="form-block__label">Имя *</label>
+							<input autocomplete="off" type="text" name="form[]" data-required="text" data-error="Введите имя" placeholder="Введите ваше имя" class="form-block__input">
+						</div>
+						<div class="form-block__line">
+							<label class="form-block__label">E-mail *</label>
+							<input autocomplete="off" type="text" data-error="Введен не верный E-mail" data-required="email" name="form[]" placeholder="Введите ваш E-mail" class="form-block__input">
+						</div>
+						<div class="form-block__line">
+							<label class="form-block__label">Отзыв *</label>
+							<textarea name="" data-required="text" placeholder="Введите ваш отзыв" data-error="Напишите отзыв" class="form-block__textarea"></textarea>
+						</div>
+						<button type="submit" class="form-block__button button">Отправить</button>
+						<div class="form-block__subtitle">Нажимая кнопку «Отправить», вы даете согласие на обработку
+							персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-message-comment" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-check">
+				<img src="img/popap/decor-1.svg" alt="декор попапа" class="popup-check__decor1">
+				<img src="img/popap/decor-2.svg" alt="декор попапа" class="popup-check__decor2">
+				<button data-close type="button" class="popup-check__close">Закрыть</button>
+				<div class="popup-check__text">
+					<div class="popup-check__title">Благодарим за оставленный отзыв!</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-form">
+				<button data-close type="button" class="popup-form__close">Закрыть</button>
+				<div class="popup-form__text">
+					<form data-dev data-popup-message="#form-message-callback" action="#" method="get" class="form-block__form">
+						<div class="form-block__decor">
+							<img src="img/decor-card.svg" alt="декор">
+						</div>
+						<div class="form-block__title">Форма обратного звонка</div>
+						<div class="form-block__line">
+							<label class="form-block__label">Имя *</label>
+							<input autocomplete="off" type="text" name="form[]" data-required="text" data-error="Введите имя" placeholder="Введите ваше имя" class="form-block__input">
+						</div>
+						<div class="form-block__line">
+							<label class="form-block__label">Телефон *</label>
+							<input autocomplete="off" type="tel" data-inputmask="'mask': '9-(999)-9999999'" name="form[]" data-required="text" data-error="Введите телефон" placeholder="_-(___)-_______" class="form-block__input">
+						</div>
+						<button type="submit" class="form-block__button button">Отправить</button>
+						<div class="form-block__subtitle">Нажимая кнопку «Отправить», вы даете согласие на обработку
+							персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-message-callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-check">
+				<img src="img/popap/decor-1.svg" alt="декор попапа" class="popup-check__decor1">
+				<img src="img/popap/decor-2.svg" alt="декор попапа" class="popup-check__decor2">
+				<button data-close type="button" class="popup-check__close">Закрыть</button>
+				<div class="popup-check__text">
+					<div class="popup-check__title">Наши специалисты свяжутся с вами в ближайшее время</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220316103047"></script>
+</body>
